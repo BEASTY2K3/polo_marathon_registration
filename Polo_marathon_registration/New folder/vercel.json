@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "public/app.html",
-      "use": "@vercel"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -14,6 +14,6 @@
     {
       "src": "/(.*)", 
       "dest": "/public/app.html"
-    }
-  ]
+    }
+  ]
 }
